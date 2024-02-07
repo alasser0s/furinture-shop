@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:rgb(222, 222, 195);
+    background-color:#eddeba;
 }
 .Search{
 width: 700px;
@@ -20,6 +20,9 @@ transition: ease 0.5s;
 }
 .brand{
     height: 100px;
+    border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
 }
 .nav-link{
     font-size: 20px;
@@ -30,28 +33,24 @@ transition: ease 0.5s;
     font-weight: bold;
     color: black;
     transition: ease 0.2s;
-    right: 0;
-    left: auto;
-    position: relative;
 }
 .dropdown-item:hover{
     color: rgb(184, 183, 183);
 }
 .icons{
     width: 30px;
-    border-radius: 500px;
     height: 30px;
     color: rgb(0, 0, 0);
     transition: ease 0.2s;
-    font-size: 2rem;
+    margin: 10px;
+    
 }
 .icons:hover{
     color: rgb(98, 96, 96);
 }
 .dropdown-menu{
-    border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;border: none;
+    border-radius: 20px;
+border: none;
 }
 .dropdown-menu {
     width: 100%;
@@ -104,8 +103,21 @@ font-weight: bold;
     top: 300px;
     right: 100px;
     transition: ease 0.5s;
-}
 
+}
 .imagess h1:hover{
+    
     transform:translateX(-5px);
-    text-shadow: 42px -1px 29px rgba(0,0,0,0.62);}
+    text-shadow: 23px 2px 12px rgba(0,0,0,0.56);}
+    .imagess svg{
+        font-weight: bold;
+        color: black;
+        position: relative;
+        top: 300px;
+        right: 100px;
+        transition: ease 0.5s;
+    }
+    .imagess svg:hover{
+    
+        transform:translateX(-5px);
+        text-shadow: 23px 2px 12px rgba(0,0,0,0.56);}
