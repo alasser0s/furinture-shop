@@ -1,102 +1,117 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-color:#eddeba;
+
+body {
+    background-color: #eddeba;
 }
-.Search{
-width: 700px;
-border-radius: 15px;
-outline: rgb(65, 65, 101);
-border: none;
-background-color: rgb(255, 243, 243);
-transition: ease 0.5s;
+
+.Search {
+    width: 700px;
+    border-radius: 15px;
+    outline: rgb(65, 65, 101);
+    border: none;
+    background-color: rgb(255, 243, 243);
+    transition: ease 0.5s;
 }
-.Search:hover{
+
+.Search:hover {
     background-color: rgb(220, 215, 215);
     transition: ease 0.5s;
 }
-.brand{
+
+.brand {
     height: 100px;
     border-radius: 200px 200px 200px 200px;
--webkit-border-radius: 200px 200px 200px 200px;
--moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
 }
-.nav-link{
+
+.nav-link {
     font-size: 20px;
     font-weight: bold;
 
 }
-.dropdown-item{
+
+.dropdown-item {
     font-weight: bold;
     color: black;
     transition: ease 0.2s;
 }
-.dropdown-item:hover{
+
+.dropdown-item:hover {
     color: rgb(184, 183, 183);
 }
-.icons{
+
+.icons {
     width: 30px;
     height: 30px;
     color: rgb(0, 0, 0);
     transition: ease 0.2s;
     margin: 10px;
-    
+
 }
-.icons:hover{
+
+.icons:hover {
     color: rgb(98, 96, 96);
 }
-.dropdown-menu{
+
+.dropdown-menu {
     border-radius: 20px;
-border: none;
+    border: none;
 }
+
 .dropdown-menu {
     width: 100%;
     padding: 0;
-  }
-  
-  .search-item {
+}
+
+.search-item {
     display: flex;
     align-items: center;
     padding: .5rem 1rem;
-  }
-  
-  .search-item img {
-    width: 30px; /* Adjust as needed */
-  }
-  
-  .clear-history {
+}
+
+.search-item img {
+    width: 30px;
+}
+
+.clear-history {
     float: right;
-  }
-  
-.navbar-nav{
+}
+
+.navbar-nav {
     margin-right: auto;
 }
-#searchInput{
+
+#searchInput {
     margin: auto;
 }
-.count{
+
+.count {
     position: relative;
     bottom: 33px;
     left: 10px;
     border-radius: 50px;
-font-size: 15px;
-opacity: 0.6;
-background-color: rgb(104, 129, 228);
-padding: 2px 5px 2px 10px;
-font-weight: bold;
+    font-size: 15px;
+    opacity: 0.6;
+    background-color: rgb(104, 129, 228);
+    padding: 2px 5px 2px 10px;
+    font-weight: bold;
 }
-.furniture{
+
+.furniture {
     padding: 20px;
 }
-.imagess{
+
+.imagess {
     text-decoration: none;
     transition: ease 0.5s;
 }
 
-.imagess h1{
+.imagess h1 {
     font-weight: bold;
     color: black;
     position: relative;
@@ -105,19 +120,212 @@ font-weight: bold;
     transition: ease 0.5s;
 
 }
-.imagess h1:hover{
-    
-    transform:translateX(-5px);
-    text-shadow: 23px 2px 12px rgba(0,0,0,0.56);}
-    .imagess svg{
-        font-weight: bold;
-        color: black;
-        position: relative;
-        top: 300px;
-        right: 100px;
-        transition: ease 0.5s;
-    }
-    .imagess svg:hover{
-    
-        transform:translateX(-5px);
-        text-shadow: 23px 2px 12px rgba(0,0,0,0.56);}
+
+.imagess h1:hover {
+
+    transform: translateX(-5px);
+    text-shadow: 23px 2px 12px rgba(0, 0, 0, 0.56);
+}
+
+.imagess {
+    font-weight: bold;
+    color: black;
+    position: relative;
+    transition: ease 0.5s;
+}
+
+.imagess:hover {
+
+    transform: translateX(-5px);
+    text-shadow: 23px 2px 12px rgba(0, 0, 0, 0.56);
+}
+
+.imagess svg {
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top: 300px;
+    right: 100px;
+    transition: ease 0.5s;
+}
+
+.imagess svg:hover {
+
+    transform: translateX(-5px);
+    text-shadow: 23px 2px 12px rgba(0, 0, 0, 0.56);
+}
+
+.sections h1 {
+    font-weight: 700;
+}
+
+.products {
+    height: 800px;
+    width: 400px;
+    object-fit: cover;
+
+}
+
+
+
+.cards:hover {
+    box-shadow: 1px 18px 51px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 18px 51px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 18px 51px -5px rgba(0, 0, 0, 0.75);
+    transform: translate(-2px, -12px);
+    -webkit-transform: translate(-2px, -12px);
+    -moz-transform: translate(-2px, -12px);
+}
+
+.cards {
+    background: transparent;
+    transition: ease 0.5s;
+
+}
+
+.sale-name {
+    color: rgb(26, 26, 41);
+    position: relative;
+    bottom: 100px;
+    left: 75px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sales {
+    text-decoration: none;
+    font-size: 60px;
+
+}
+
+.button {
+    width: 200px;
+    background-color: rgb(92, 109, 114);
+    text-decoration: none;
+    padding: 20px;
+    font-size: 10px 5px;
+    font-weight: bolder;
+    border-radius: 10px;
+    color: #eddeba;
+    transition: ease 0.5s;
+    opacity: 0.8;
+}
+
+.button:hover {
+    transform: translate(-27px, -6px);
+    background-color: transparent;
+    color: rgb(92, 109, 114);
+    box-shadow: 13px 7px 23px 0px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 13px 7px 23px 0px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 13px 7px 23px 0px rgba(0, 0, 0, 0.7);
+
+}
+
+.carousel-inner {
+    width: 100%;
+
+}
+
+.infos {
+    height: 100px;
+    width: 300px;
+    margin: 200px;
+}
+
+.carousel-item {
+    object-fit: cover;
+}
+
+.sections {
+    margin: 100px;
+}
+
+.carousel {
+    object-fit: cover;
+}
+
+.card-wrapper {
+    padding: 0;
+    margin: auto;
+
+}
+
+.card {
+    margin: 25px;
+}
+
+hr {
+    margin: 50px;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+    margin-top: 100px;
+}
+
+.footer-c {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-c h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-c h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-c ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-c ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-c ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-c .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-c .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/* store page */
+

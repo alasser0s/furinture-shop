@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', 'sans-seri';
+    box-sizing: border-box;
+}
+body{
+    background-color: #eddeba;
+    width:auto;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0 auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.login-container{
+    background: #eddeba;
+    background: linear-gradient(200deg,#eddeba 0%, #24262b 80%);
+    background: -webkit-linear-gradient(200deg,#eddeba 0%, #24262b 80%);
+    background: -moz-linear-gradient(200deg,#eddeba 0%, #24262b 80%);
+    padding: 75px 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+font-weight: bold;
+width: 400px;
+text-align: center;
+border-radius: 5px;
+}
+.login-container h1{
+text-align: center;
+padding: 0 0 20px 0;
+border-bottom: 1px solid silver;
+}
+.login-container form{
+    padding: 10px 40px;
+    box-sizing: border-box;
+
+}
+.input-info{
+    position: relative;
+    border-bottom: 2px solid silver;
+margin: 30px;
+
+}
+.input-info input{
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+background: none;
+outline: none;
+background-color:linear-gradient(120deg, rgb(206, 205, 205), rgb(0, 0, 0));
+font-size: 16px;
+}
+.input-info label{
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    font-size: 16px;
+    color: rgb(33, 33, 33);
+transform: translateY(-50%);
+}
+/* Rest of your CSS... */
+
+.input-info input {
+    /* ...existing styles... */
+    color: rgb(41, 37, 37); /* Ensures text is visible on the dark background */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.input-info label {
+    /* ...existing styles... */
+    transition: top 0.3s, font-size 0.3s, color 0.3s; /* Smooth transition for the label */
+    pointer-events: none; /* Prevents label from blocking cursor */
+}
+
+.input-info input:focus ~ label,
+.input-info input:not(:placeholder-shown) ~ label {
+    top: -20px; /* Adjust as needed */
+    font-size: 14px; /* Smaller size when the label moves up */
+    color: rgb(61, 59, 59); /* Label color when focused/active */
+}
+
+/* You might not need this if you are not using any span for animation */
+.input-info span::before{
+    content:'';
+    position: absolute;
+    top: 40px;
+    left:0;
+    width: 0;
+    height: 10px;
+    background: rgb(31, 28, 28);
+}
+.forgot-password{
+    margin: -5px 0 20px 5px;
+    transition: 0.5s ease;
+    color: rgb(29, 23, 23);
+    cursor: pointer;
+}
+.forgot-password:hover{
+    text-decoration: underline;
+    color: rgb(5, 4, 4);
+}
+.forgot-password a{
+    color: rgb(195, 195, 195);
+    transition: 0.5s ease;
+    text-decoration: none;
+}
+.forgot-password a:hover{
+    color: black;
+}
+input[type="submit"]{
+width: 100%;
+height: 50px;
+font-size: 25px;
+border-radius: 20px;
+border: 1px solid ;
+background:rgba(169, 158, 158, 0.038) ;
+font-weight: 700;
+outline: none;
+}
+input[type="submit"]:hover{
+border-color: rgb(255, 242, 242);
+transition: 0.5s ease;
+}
+.sign-in{
+    margin: 30px;
+    font-size: 20px;
+    color: rgb(179, 177, 177);
+}
+.sign-in a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.sign-in a:hover{
+    color: black;
+    text-decoration: underline;
+}
